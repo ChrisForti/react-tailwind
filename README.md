@@ -1,8 +1,9 @@
-# React and taiwind project
+# About
+
+This is a static site built with vanilla React.
 
 ## Usage
 
-Currently, two official plugins are available:
+Navigate to the vanilla-react directory and type `npm run dev` in the terminal.
 
-@vitejs/plugin-react uses Babel for Fast Refresh
-@vitejs/plugin-react-swc uses SWC for Fast Refresh
+### Built with
