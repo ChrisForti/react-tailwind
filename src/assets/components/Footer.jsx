@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
     <div>
-      <a href="hhtps://https://github.com/ChrisForti">More code</a>
+      <a href="https://github.com/ChrisForti" rel="stylesheet">
+        More code
+      </a>
     </div>
   );
 };
