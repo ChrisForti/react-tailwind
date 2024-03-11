@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { CountButton } from "./assets/components/CountButton";
-import { RadioGroup } from "@headlessui/react";
+import Nav from "./assets/components/Nav";
 import "./App.css";
 
 function App() {
@@ -10,16 +10,15 @@ function App() {
   return (
     <>
       <div>
-        <RadioGroup />
+        <Nav />
       </div>
-      <h1 className="hue-rotate-180">Static site</h1>
       <div>
-        <link rel="CountButton" href="/assets/App" />
+        <h1>Static site</h1>
+      </div>
+      <div>
         <CountButton />
       </div>
-      <div>
-        <RadioGroup />
-      </div>
+      <div></div>
     </>
   );
 }
