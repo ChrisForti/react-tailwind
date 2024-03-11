@@ -37,8 +37,16 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h1 {color: black;
   font-size: 5em;
+  line-height: 1.1;
+  padding-left: 50;
+}
+
+h2 {
+  color: rgb(215, 10, 10);
+  font-size: 9em;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.1;
   padding-left: 50;
 }

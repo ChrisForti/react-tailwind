@@ -5,12 +5,18 @@ const Nav = () => {
     <nav>
       <div>
         <div>
-          <span>Logo</span>
+          <span>
+            <ul>Logo</ul>
+            <ul>Logo</ul>
+            <ul>Logo</ul>
+          </span>
         </div>
         <div>
           <div>
             <ul>
               <li>Home</li>
+              <li>Info</li>
+              <li>About</li>
             </ul>
           </div>
         </div>

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { CountButton } from "./assets/components/CountButton";
 import Nav from "./assets/components/Nav";
 import "./App.css";
+import Header from "./assets/components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,13 +11,15 @@ function App() {
   return (
     <>
       <div>
+        <CountButton />
         <Nav />
       </div>
+
       <div>
-        <h1>Static site</h1>
+        <Header />
       </div>
       <div>
-        <CountButton />
+        <h2>Reactor</h2>
       </div>
       <div></div>
     </>
