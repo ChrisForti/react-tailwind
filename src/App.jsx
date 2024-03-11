@@ -1,6 +1,6 @@
 import React from "react";
-import useState from "react";
-import CountButton from "./assets/components/CountButton";
+import { useState } from "react";
+import { CountButton } from "./assets/components/CountButton";
 import Nav from "./assets/components/Nav";
 import "./App.css";
 import Header from "./assets/components/Header";
@@ -12,7 +12,9 @@ function App() {
   return (
     <>
       <div>
-        <CountButton />
+        <div>
+          <CountButton />
+        </div>
         <Nav />
       </div>
 
