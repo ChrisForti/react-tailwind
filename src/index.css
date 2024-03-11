@@ -4,9 +4,9 @@
   background-image: url("/siltrun.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-   
+  background-size: 98em; 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 2;
+  line-height: 1;
   font-weight: 1000;
 
   color-scheme: light dark;
@@ -20,21 +20,18 @@
 }
 
 a {
+  font-size: large;
   font-weight: 500;
-  color: #646cff;
+  color: #73ff64;
   text-decoration: inherit;
 }
 a:hover {
-  color: #ea994d;
+  
 }
 
 body {
 
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+ 
 }
 
 h1 {color: black;
@@ -58,7 +55,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgb(215, 10, 10);
   cursor: pointer;
   transition: border-color 0.25s;
 }

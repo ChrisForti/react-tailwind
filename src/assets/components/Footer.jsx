@@ -1,5 +1,9 @@
 const Footer = () => {
-  return <div></div>;
+  return (
+    <div>
+      <a href="hhtps://https://github.com/ChrisForti">More code</a>
+    </div>
+  );
 };
 
 export default Footer;

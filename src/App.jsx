@@ -4,6 +4,7 @@ import { CountButton } from "./assets/components/CountButton";
 import Nav from "./assets/components/Nav";
 import "./App.css";
 import Header from "./assets/components/Header";
+import Footer from "./assets/components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +22,9 @@ function App() {
       <div>
         <h2>Reactor</h2>
       </div>
-      <div></div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 }
