@@ -1,0 +1,31 @@
+h1 {
+    color: aliceblue;
+    text-align: right;
+    
+}
+
+body {
+    background-image: url("./phoenix.jpeg");
+    
+    
+    
+}
+
+p {
+    
+    color: aqua;
+    text-align: right;
+    font-size: 63px;
+    font-weight: 650;
+    
+    
+
+}
+
+div {
+    border: 4px, 8px;
+    text-align: center;
+    border-radius: 5%;
+    margin: 50px, 100px;
+
+}

@@ -13,7 +13,12 @@ const Nav = () => {
             <ul>
               <img src="./vite.svg" />
             </ul>
-            <ul>Logo</ul>
+            <ul>
+              <a href="../public/phoenixpage.html">
+                {" "}
+                <img src="./react.svg" />
+              </a>
+            </ul>
           </span>
         </div>
         <div>
