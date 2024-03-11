@@ -8,13 +8,17 @@ const Nav = () => {
         <div>
           <span>
             <ul>
-              <img src="./react.svg" />
+              <a href="../logo512.png">
+                <img src="./react.svg" />
+              </a>
             </ul>
             <ul>
-              <img src="./vite.svg" />
+              <a href="../logo512.png">
+                <img src="./vite.svg" />
+              </a>
             </ul>
             <ul>
-              <a href="../public/phoenixpage.html">
+              <a href="../phoenixpage.html">
                 {" "}
                 <img src="./react.svg" />
               </a>
