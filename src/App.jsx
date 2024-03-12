@@ -13,16 +13,15 @@ function App() {
     <>
       <div>
         <div>
-          <CountButton />
+          <Header />
         </div>
-        <Nav />
-      </div>
-
-      <div>
-        <Header />
-      </div>
-      <div>
         <h2>Reactor</h2>
+      </div>
+      <Nav />
+      <div></div>
+      <div></div>
+      <div>
+        <CountButton />
       </div>
       <div>
         <Footer />

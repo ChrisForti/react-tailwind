@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div>
-      <a href="https://chrisforti.github.io/static-site">About</a>
+      <a href="https://chrisforti.github.io/static-site">Artisan Standup's</a>
     </div>
   );
 };

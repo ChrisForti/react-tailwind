@@ -8,28 +8,8 @@ const Nav = () => {
         <div>
           <span>
             <ul>
-              <a href="../logo512.png">
-                <img src="./react.svg" />
-              </a>
-            </ul>
-            <ul>
-              <a href="../logo512.png">
-                <img src="./vite.svg" />
-              </a>
-            </ul>
-            <ul>
-              <a href="../phoenixpage.html">
-                {" "}
-                <img src="./react.svg" />
-              </a>
-            </ul>
-          </span>
-        </div>
-        <div>
-          <div>
-            <ul>
               <li>
-                <a href="https://github.com/ChrisForti/">Ideas</a>
+                <a href="https://github.com/ChrisForti/">Code</a>
               </li>
               <li>
                 <a href="https://ChrisForti.github.io">Info</a>
@@ -37,6 +17,26 @@ const Nav = () => {
               <li>
                 <About />
               </li>
+            </ul>
+          </span>
+        </div>
+        <div>
+          <div>
+            <ul>
+              <a href="../tesla-page.html">
+                <img src="./react.svg" />
+              </a>
+            </ul>
+            <ul>
+              <a href="../Knife-island.jpg">
+                <img src="./vite.svg" />
+              </a>
+            </ul>
+            <ul>
+              <a href="../logo512.png">
+                {" "}
+                <img src="./react.svg" />
+              </a>
             </ul>
           </div>
         </div>

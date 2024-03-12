@@ -8,47 +8,59 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1;
   font-weight: 1000;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
- 
-  
-  
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
 }
 
 a {
   font-size: large;
   font-weight: 500;
   color: #73ff64;
-  text-decoration: inherit;
+  
 }
 a:hover {
   color: black;
 }
 
-body {
+.Title {
+    
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  color: rgba(255, 57, 3, 0.8);
+  text-align: center;
 
- 
 }
 
-h1 {color: black;
-  font-size: 5em;
+body {
+  font-size: large;
+  line-height: 100px;
+}
+
+h1 {
+  font-weight: 2000;
+  color: black;
+  font-size: 30px;
   line-height: 1.1;
   padding-left: 50;
 }
 
 h2 {
   color: rgb(215, 10, 10);
-  font-size: 9em;
+  font-size: larger;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 1.1;
+  line-height: 2;
   padding-left: 50;
 }
 
-
+.ul {
+  box-sizing: border-box;
+}
 
 button {
   border-radius: 8px;
@@ -57,7 +69,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: rgb(215, 10, 10);
+  background-color: rgb(8, 137, 148);
   cursor: pointer;
   transition: border-color 0.25s;
 }
