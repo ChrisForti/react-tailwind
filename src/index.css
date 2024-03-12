@@ -6,8 +6,6 @@
   background-size: cover;
   background-size: 98em; 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1;
-  font-weight: 1000;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
@@ -32,8 +30,7 @@ a:hover {
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
-  color: rgba(255, 57, 3, 0.8);
-  text-align: center;
+  
 
 }
 
@@ -60,6 +57,10 @@ h2 {
 
 .ul {
   box-sizing: border-box;
+}
+
+Header {
+  font-size: xx-large;
 }
 
 button {
