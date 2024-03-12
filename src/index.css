@@ -12,7 +12,9 @@
 }
 
 a {
-  font-size: large;
+  size: 50px;
+  font-family: fantasy;
+  font-size: 30px;
   font-weight: 500;
   color: #73ff64;
   
@@ -21,7 +23,7 @@ a:hover {
   color: black;
 }
 
-.Title {
+Title {
     
   box-sizing: border-box;
   width: 100%;
@@ -40,44 +42,55 @@ body {
 }
 
 h1 {
-  font-weight: 2000;
+  
+  font-weight: 200;
+  font-family: fantasy;
   color: black;
-  font-size: 30px;
-  line-height: 1.1;
-  padding-left: 50;
+  font-size: 150px;
+  text-align: left;
 }
 
 h2 {
   color: rgb(215, 10, 10);
-  font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 2;
-  padding-left: 50;
+  font-size: 200px;
+  font-family: fantasy;
+  text-align: right;
 }
 
 .ul {
   box-sizing: border-box;
+  list-style: circle;
+  }
+
+.li {
+  list-style-position: outside;
+  list-style-type: square;
 }
 
-Header {
-  font-size: xx-large;
+.img {
+ font-weight: bolder;
+}
+
+.Header {
+  column-fill: auto;
 }
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border-style: ridge;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;
-  background-color: rgb(8, 137, 148);
-  cursor: pointer;
+  font-family: fantasy;
+  background-color: rgb(236, 119, 15);
+  cursor: crosshair;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  color: rebeccapurple;
+  
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 17px outline-color rebeccapurple -webkit-focus-ring-color;
 }

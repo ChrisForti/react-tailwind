@@ -8,15 +8,13 @@ const Nav = () => {
         <div>
           <span>
             <ul>
-              <li>
-                <a href="https://github.com/ChrisForti/">Code</a>
-              </li>
-              <li>
-                <a href="https://ChrisForti.github.io">Info</a>
-              </li>
-              <li>
-                <About />
-              </li>
+              <a href="https://github.com/ChrisForti/">Code</a>
+            </ul>
+            <ul>
+              <a href="https://ChrisForti.github.io">Info</a>
+            </ul>
+            <ul>
+              <About />
             </ul>
           </span>
         </div>
@@ -33,8 +31,12 @@ const Nav = () => {
               </a>
             </ul>
             <ul>
-              <a href="../logo512.png">
-                {" "}
+              <a href="../dessert-range.jpg">
+                <img src="./react.svg" />
+              </a>
+            </ul>
+            <ul>
+              <a href="../reef.jpg">
                 <img src="./react.svg" />
               </a>
             </ul>
