@@ -1,6 +1,6 @@
 # About
 
-This is a static site built with vanilla React.
+This is a webapp built with vanilla React. That I use to showcase all my static content.
 
 ## Usage
 
