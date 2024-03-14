@@ -1,5 +1,9 @@
-export function NameFunc(props) {
-  return <div></div>;
+export function NameFunc({ name, age = 44 }) {
+  return (
+    <div>
+      {name} {age}
+    </div>
+  );
 }
 
 export default NameFunc;

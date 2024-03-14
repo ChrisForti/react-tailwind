@@ -67,12 +67,17 @@ h2 {
   list-style-type: square;
 }
 
-.img {
+img {
  font-weight: bolder;
 }
 
-.Header {
+.header {
   column-fill: auto;
+}
+
+.name-function {
+  font-family: fantasy ;
+  color: blue;
 }
 
 button {
@@ -93,4 +98,8 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 17px outline-color rebeccapurple -webkit-focus-ring-color;
+}
+
+div {
+  color: #73ff64;
 }

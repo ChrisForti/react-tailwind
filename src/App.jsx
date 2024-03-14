@@ -5,7 +5,7 @@ import Nav from "./assets/components/Nav";
 import "./App.css";
 import Header from "./assets/components/Header";
 import Footer from "./assets/components/Footer";
-import { NameFunc } from "./assets/components/NameFunction";
+import NameFunc from "./assets/components/NameFunction";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,8 +20,7 @@ function App() {
       </div>
       <Nav />
       <div>
-        <NameFunc name="Custom Name" age={27} />
-        {/* <NameCass /> */}
+        <NameFunc name="chris" />
       </div>
       <div></div>
       <div>
