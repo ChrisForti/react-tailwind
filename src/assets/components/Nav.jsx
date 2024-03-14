@@ -26,7 +26,7 @@ const Nav = () => {
               </a>
             </ul>
             <ul>
-              <a href="../Knife-island.jpg">
+              <a href="../TicTacToe.html">
                 <img src="./vite.svg" />
               </a>
             </ul>

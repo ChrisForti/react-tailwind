@@ -20,12 +20,11 @@ function App() {
       </div>
       <Nav />
       <div>
-        <NameFunc name="chris" />
-      </div>
-      <div></div>
-      <div>
+        <NameFunc name="Earth Goat" />
         <CountButton />
       </div>
+      <div></div>
+      <div></div>
       <div>
         <Footer />
       </div>
