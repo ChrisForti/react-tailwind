@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () => {
+function Header() {
   return (
     <div>
       <h1>Static site</h1>
     </div>
   );
-};
+}
 
 export default Header;

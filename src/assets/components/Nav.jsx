@@ -21,22 +21,22 @@ const Nav = () => {
         <div>
           <div>
             <ul>
-              <a href="../tesla-page.html">
+              <a href="/tesla-page.html">
                 <img src="./react.svg" />
               </a>
             </ul>
             <ul>
-              <a href="../dusk-cove.jpg">
+              <a href="/dusk-cove.jpg">
                 <img src="./vite.svg" />
               </a>
             </ul>
             <ul>
-              <a href="../dessert-range.jpg">
+              <a href="/dessert-range.jpg">
                 <img src="./react.svg" />
               </a>
             </ul>
             <ul>
-              <a href="../reef.jpg">
+              <a href="/reef.jpg">
                 <img src="./react.svg" />
               </a>
             </ul>
