@@ -20,7 +20,7 @@ function App() {
       </div>
       <Nav />
       <div>
-        <NameFunc name="Earth Goat" />
+        <NameFunc name="Christopher" />
         <CountButton />
       </div>
       <div></div>
