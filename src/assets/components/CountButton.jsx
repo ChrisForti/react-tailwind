@@ -5,7 +5,7 @@ export function CountButton() {
   const [count, setCount] = useState(0);
 
   function handleClick() {
-    setCount(count + 3);
+    setCount(count + 1);
   }
 
   return <button onClick={handleClick}>count is {count}</button>;

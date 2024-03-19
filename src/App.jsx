@@ -21,7 +21,7 @@ function App() {
       </div>
 
       <div>
-        <NameFunc name="Christopher" />
+        <NameFunc name="Tic Tac Toe anyone?" />
         <CountButton />
       </div>
       <div>
